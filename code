@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Jasa Skripsi & Tesis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RK Jasa Skripsi & Tesis</h1>
+    </header>
+    <nav>
+        <a href="#about">Tentang Kami</a>
+        <a href="#services">Layanan</a>
+        <a href="#testimonials">Testimoni</a>
+        <a href="#contact">Hubungi Kami</a>
+    </nav>
+    <div class="container">
+        <div id="contact" class="section">
+            <h2>Hubungi Kami</h2>
+            <ul class="contact-info">
+                <li>Email: info@rkjasaskripsitesis.com</li>
+                <li>Telepon: 08988358298</li>
+                <li>Alamat: Jl. Contoh No. 123, Jakarta</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 RK Jasa Skripsi & Tesis. All rights reserved.
+    </footer>
+</body>
+</html>
